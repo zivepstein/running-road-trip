@@ -114,6 +114,7 @@ a:hover{color:#e7e7e7}
 .highlightSection img{padding:0 0 28px 0}
 .highlightSection .media{background-color: #efefef;border: 1px solid #efefef;color: #939393;padding: 10px;text-align: center;}
 .introSection{background-color: #efefef; padding: 28px 0}
+.header{background-color: white; padding: 28px 0}
 .brandBtn{background-color: #7db641;}
 .btn-default{color: #fff;background-color: #7db641;border-color: #7db641;border-radius:0}
 .btn-default.active, .open .dropdown-toggle.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active {color: #fff;background-color: #c83a3a ;border-color: #c83a3a ;}
@@ -270,7 +271,7 @@ footer{padding:18px 0; background:#111; color:#fff;}
   padding:15px 0 15px 0 ;
 }
 
-#mission img{
+ #mission img{
     padding:15px 8px 15px 8px ;
     width: 8%;
 }
