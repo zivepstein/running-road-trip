@@ -74,6 +74,11 @@
 			  animation:google.maps.Animation.BOUNCE
 			  });
 
+      var flightPath = new google.maps.Polyline({
+          path: [{lat: 40.0150,lng: -95.2705},{lat: 45.0150,lng:-95.2705},{lat:55.0150 ,lng:-90.2705}],
+          geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0,
+          strokeWeight: 2 });
+      flightPath.setMap(map);
 			marker.setMap(map);
 
 			// Info open
@@ -219,7 +224,7 @@ Follow us on social media or donate to our cause.</p>
 
 		<div class="col-lg-3">
 		<h3>Nico Erikson-Deriso</h3>
-    <img src="themes/assets/images/salate.png"width="100%" alt="Generic placeholder image">
+    <img src="themes/assets/images/nico.jpg"width="100%" alt="Generic placeholder image">
 		<p>
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
 		text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
