@@ -30,14 +30,14 @@
   <body>
 
 
+
     <div class="header" style = "height: 10%;">
-  		<div class="cntr" >
-          <a href = "#" style="font-size: 300%"><font color="#663399">The Running Road Trip</font></a> <br>
-          <a href = "#misison">Our Mission</a> |
-        <a href = "#content">Content</a> |
-        <a href = "#cause">Our Cause </a> |
-          <a href = "#team">Our Team </a> |
-        <a href = "#sponsors">Our Sponsors </a>
+      <div class="cntr" >
+          <a href = "index.html" style="font-size: 300%"><font color="#663399">The Running Road Trip</font></a> <br>
+          <a href = "mission.html">Our Mission</a> |
+        <a href = "cause.html">Our Cause </a> |
+          <a href = "team.html">Our Team </a> |
+        <a href = "sponsors.html">Our Sponsors </a>
 
       </div>
     </div>
@@ -57,48 +57,48 @@
       <div class="carousel-inner">
           <div class="item active">
             <script
-  			src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
-			</script>
-			<script>
-			var boulder=new google.maps.LatLng(40.0150,-105.2705);
-			var marker;
-			function initialize()
-			{
-			var mapProp = {
-			  center:new google.maps.LatLng(40.0150,-95.2705),
-			  zoom:4,
-			  mapTypeId:google.maps.MapTypeId.ROADMAP
-			  };
-			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-			marker=new google.maps.Marker({
-			  position:boulder,
-			 // icon:'themes/assets/images/nepali-momo.png',
-			  animation:google.maps.Animation.BOUNCE
-			  });
+        src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+      </script>
+      <script>
+      var boulder=new google.maps.LatLng(40.0150,-105.2705);
+      var marker;
+      function initialize()
+      {
+      var mapProp = {
+        center:new google.maps.LatLng(40.0150,-95.2705),
+        zoom:4,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      marker=new google.maps.Marker({
+        position:boulder,
+       // icon:'themes/assets/images/nepali-momo.png',
+        animation:google.maps.Animation.BOUNCE
+        });
 
       var flightPath = new google.maps.Polyline({
           path: [{lat: 40.0150,lng: -95.2705},{lat: 45.0150,lng:-95.2705},{lat:55.0150 ,lng:-90.2705}],
           geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0,
           strokeWeight: 2 });
       flightPath.setMap(map);
-			marker.setMap(map);
+      marker.setMap(map);
 
-			// Info open
-			var infowindow = new google.maps.InfoWindow({
-			  content:"Hello World!"
-			  });
+      // Info open
+      var infowindow = new google.maps.InfoWindow({
+        content:"Hello World!"
+        });
 
-			google.maps.event.addListener(marker, 'click', function() {
-			  infowindow.open(map,marker);
-			  });
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);
-			</script>
-			<div id="googleMap" style="height:550px;"></div>
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
 
-			</div>
-		  </div>
-		</div><!-- /.carousel -->
+<iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1jObOvKoJfEEfMiq49r8eGU1BaD4" width="100%" height="550px"></iframe>
+      </div>
+      </div>
+    </div><!-- /.carousel -->
   </div>
   <div class = "col-lg-3">
     <a class="twitter-timeline" href="https://twitter.com/RunningRoadtrip">Tweets by RunningRoadtrip</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
@@ -108,60 +108,16 @@
 
 <header>
   <div class="container marketing" id = "mission"> </header>
-   <h2 class="itemsTitle">Our Mission</h2>
-   <p><center>ADVENTURE / CONNECTION / PASSION / PHILANTHROPY / FRIENDSHIP</center></p>
  </div>
  </div>
-
-<p><center>~48 States, 48 Runs~
-<p><center>→ The Running Road Trip project is an adventure around the continental United States that will be embarked on by four average runners with a passion of running.
-For roughly two months, the road trip will weave in and out of each state, where we will complete an interesting run. Throughout this endeavor, we will be raising money
-and awareness for the detrimental disease of Alzheimer’s. Keep up with our progress through Facebook, Instagram, and Twitter!
- </center></p>
-</div>
-<p><center>#TheRRT</center></p>
-
-<div class - "row">
-<div class = "cntr">
-  <a href="mailto:runningroadtrip@gmail.com"><img id = "social_media" src="themes/assets/images/email.png" alt="Generic placeholder image"></a>
-  <style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-48 { width: 48px; height: 48px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-48 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }</style>
-<a href="https://www.instagram.com/runningroadtrip/?ref=badge" class="ig-b- ig-b-48"><img src="//badges.instagram.com/static/images/ig-badge-48.png" alt="Instagram" /></a>
-<a href="https://twitter.com/RunningRoadtrip" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @RunningRoadtrip</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  <img src="themes/assets/images/facebook.png" alt="Generic placeholder image">
-  <img src="themes/assets/images/linkedin.png" alt="Generic placeholder image">
-  <img src="themes/assets/images/youtube.png" alt="Generic placeholder image">
-  <img src="themes/assets/images/bloggr.png" alt="Generic placeholder image">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-     <input type="hidden" name="cmd" value="_s-xclick">
-     <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----...[Encrypted message]...-----END PKCS7-----">
-
-     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"quot;0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-     <img alt=""quot;0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-     </form>
-</div>
-</div>
-
-<div class = "cntr">
-
-
- </div>
-
   </div>
 
 
 
 
-	 <div class="container marketing" id = "content">
+   <div class="container marketing" id = "content">
     <h2 class="itemsTitle">Our Content</h2>
-	<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel1" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <div class="carousel-inner">
         <div class="item active">
@@ -178,47 +134,28 @@ and awareness for the detrimental disease of Alzheimer’s. Keep up with our pro
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
-          <h4>Sponsors</h4>
+          <h4>News</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
         </div>
-        <div class="item">
-         <div class="row">
-        <div class="col-lg-4">
-          <img src="themes/assets/images/salate.png" alt="Generic placeholder image">
-          <h4>Runs</h4>
-          <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="themes/assets/images/burger.png" alt="Generic placeholder image">
-          <h4>Blogs</h4>
-          <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="themes/assets/images/drinks.png" alt="Generic placeholder image">
-          <h4>Gear</h4>
-          <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-        </div>
+        
         <div class="item">
           <div class="row">
         <div class="col-lg-4">
           <img  src="themes/assets/images/salate.png" alt="Generic placeholder image">
-          <h4>Sponsors</h4>
-          <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  src="themes/assets/images/burger.png" alt="Generic placeholder image">
           <h4>Gear</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
+          <img  src="themes/assets/images/burger.png" alt="Generic placeholder image">
+          <h4>Sponsors</h4>
+          <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
           <img  src="themes/assets/images/drinks.png" alt="Generic placeholder image">
-          <h4>Blog</h4>
+          <h4>Contact</h4>
           <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -227,131 +164,10 @@ and awareness for the detrimental disease of Alzheimer’s. Keep up with our pro
       <a class="left carousel-control" href="#myCarousel1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
-	</div>
+  </div>
 
   <div></div>
-  <br></br>
-    <header style="center">
-        <div class="container marketing" id = "cause"> </header>
-        <center> <h2 class="itemsTitle">Our Cause</h2></center>
-          <div class = "block">
-         <body align= "justify">
-         <STYLE TYPE="text/css"> <!-- .indented (padding-left: 50pt; padding-right: 50pt;) </STYLE>
-         </center>
-          <left><div style="text-indent:2.0em;"><p>I was nine years old when I first ran the Bolder Boulder with my grandfather. He was scheduled to go off before me, but instead waited, joining his grandson for the 10-kilometer course. Never one to let me off easy, he crossed the line ahead of me, his 65-minute mark not quite the same as the 50-minute ones he was used to running.The following year, the tables turned; a late kick propelled me ahead of my grandfather by a couple of minutes. A year later and he had already acknowledged he would be fighting a losing cause against my growing legs, instead running with his wife, who for the first time had finally agreed to participate in what had become a family tradition.In her first ever race, she managed to place in the top-10 in her age and gender category, something my grandfather had never been able to accomplish but had always dreamed to. We all thought he would have another strong opportunity to try to the following year. We were all wrong. In 2007, my grandfather suffered a stroke, and everything changed.</p>
-<p>	It wasn’t the pleasant type of change, the kind that slaps you in the face before letting you look it in the eyes and adjust to it. It was the sort that shoves you to the ground, offers you a hand back up, and then lets you fall back to its feet. It was the type that smiles at you, and then proceeds to spit in your face. It teases you, convincing you it is your friend before stabbing you in the back.You’re never afforded the opportunity to fully face it, never allowed to look it directly in the eyes, never able to truly adjust…</p>
-<p>From that day on, my grandfather suffered from gradual memory loss, initially only stroke-induced dementia, but eventually early-onset Alzheimer’s as well. His memory faded bit-by-bit, moment-by-moment. Some days he would be lucid, some he failed to even recognize my grandmother, his wife, once going as far as to threaten the stranger he found himself waking up next to.</p>
-<p>This wasn’t the first time my grandmother had sat through this play, not the first time she had to endure watching a loved one’s head slowly become vacant – her mother had suffered the same fate. Unfortunately, this didn’t make it any easier. If anything it was scarier, knowing what was coming but knowing no way to stop it.</p>
-<p>I cannot say for whom it was hardest. It might have been for my grandfather, the Duke and Stanford grad who prized his ability to think above all of his other traits. It might have been for my grandmother, the devoted wife caring for a husband who no longer recognized her. Or it might have been for my mother and siblings, watching their loving father struggle to understand how to put on his shirt in the morning.I don’t really think it mattered though, don’t think there is a value to suffering more than anyone else. In a situation where everybody hurts, there are no winners.</p>
-<p>	My grandfather did his best to not let his disease alter who or what he was during that first year. I did what I had always done and followed suit. But as my running continued to get better, his deteriorated.</p>
-<p>In 2010 we moved my grandfather to a senior care facility. He was still running, but it was different now. He was no longer running for the love of the sport, but was instead running away and disappearing, whether from mere disorientation and memory loss or from a desire to escape what he and his life had become, it was unclear.If it wasn’t for his ID bracelet, I’m not sure he would have always returned. Or been returned really. Regardless, he was no longer safe at home, and it was time for him to be under constant supervision.</p>
-<p>It was difficult visiting him at his new home. I never knew whether he would know who I was, whether there would be that glint of recognition in his eyes. I never knew if I would be having a conversation that day, or just leading a confused old man in aimless laps around the halls. As time wore on, the latter grew to be more and more the norm, the former becoming almost nonexistent.</p>
-<p>In August of 2011, I left home to live in Spain for a year, escaping the difficulties and suffering of watching my grandpa’s degeneration. But there was no real escape, no way to make what was happening to my grandfather go away.</p>
-<p>I sitting on my friend’s couch getting slaughtered in a game of FIFA when I got the call. I popped outside, the biting November winds slicing through my cotton t-shirt. No matter, I was already numb. My grandfather was in the hospital, and it appeared unlikely that he would get to witness another sunrise. He had hit his head hard when no one was looking, possibly in a moment of lucid purpose.He happened to be awake when my mom called, though not aware enough to speak when she put the phone up to his ear. She claims that his face lit up when I spoke to him; to this day I do not know whether she was simply comforting her son from afar, or if my voice was actually the one lucky enough to be remembered.</p>
-<p>He passed that night. I ran, not yet ready to deal with the truth, not yet ready to face the facts. I completed my program abroad, then extended it, spending an extra month doing something he loved and backpacking through Spain. But I couldn’t escape forever.</p>
-<p>We scattered his ashes in August 2012, the whole family huffing their ways up his favorite hike to a set of cascades. There was little closure for me though, no way for me to adequately say goodbye. I wasn’t ready then, and am still not ready now.</p>
-<p>Since then, my grandmother has begun the same spiral, and it is just as painful as the last time. Over the summer I was lucky enough to see her nearly everyday, and nearly every day I had “grown an inch or two” since the last time I had seen her.This past winter we moved her into the facility next to my grandfather’s, the one that is a standard seniors’ home, not one specifically for those suffering from Alzheimer’s. We are hoping that placing her in a social environment before she deteriorates too far will help slow the process. That is the best we can hope for. As of yet, nobody wins the fight against Alzheimer’s.</p>
-<p>My mother knows that she is probably next. We have talked about it many times before, about how the demons will undoubtedly come creeping into her brain, eating everything that they can. When it begins to happen, my mom has asked that I take her on a hike high up in the mountains, make sure the trail is treacherous, and then push her off of a cliff.So that she can die not only doing something that she loves, but also remembering those whom she loves. So that she doesn’t have to suffer the way she has seen her parents suffer. So that she doesn’t have to put my brother and I through what she has been through.</p>
-<p>As much as I love my mother, I know that this is something that I cannot do. So instead I am doing what I have always done: I am running. But this time it is different, this time it is with a purpose.</p> </left>
-            <center>  <p>Best regards,</p>
-          <p>  Nico Ericksen-Deriso</p></center>
-  </div style>
-  <br></br>
-       </div>
-       </div>
-
-      </p>
-
-
-	<div class="introSection" id = "team">
-		<div class="container">
-		<div class="row">
-      <div class = "cntr">
-        <h1>Our team</h1>
-      </div>
-      </div>
-      <div class="row">
-
-		<div class="col-lg-3">
-		<h3>Nico Ericksen-Deriso</h3>
-    <img src="themes/assets/images/nico.jpg"width="100%" alt="Generic placeholder image">
-		<p>
-		After watching his Grandfather detiorate from an everyday runner to an eventual Alzheimer's patient, Nico has taken his Grandfather's place, running to further advance the battle against one of the world's most difficult diseases. <br><br>
-
-		</p>
-
-		</div>
-
-		<div class="col-lg-3">
-		<h3>Sadie Witt</h3>
-
-    <img src="themes/assets/images/SadieMountain.jpg"width="100%" alt="Generic placeholder image">
-    <p>
-		When I first began running, it was for the purpose of clearing my head after a long day. It gradually took on more meaning. It became a social outlet; when I’m apart of a team or club, I’m apart of a strong community. The day of my first high school cross country meet, my grandfather passed away. Having always been my personal cheerleader as well as an active person himself, I decided to race and that I would race not for myself, but for him. As I’ve learned, running holds a greater significance that is beyond just for oneself. Through the RRT, I will be running for Alzheimer’s.
-     <br><br>
-
-
-
-
-		</p>
-
-		</div>
-
-    <div class="col-lg-3">
-		<h3>Bailee Mulholland</h3>
-
-    <img src="themes/assets/images/baileebolderboulder2016.png"width="100%" alt="Generic placeholder image">
-    <p>
-      “It doesn't matter whether you're the lion or a gazelle-when the sun comes up, you'd better be running.”
-      <br>-Christopher McDougall
-<br><br>
-To me, this quote is the epitome of what it means to be a runner.
-Some people are faster than you without training, and some can go farther.
-But in the end, none of that matters.
-The only thing that really matters is whether you got up and you trained and you put your heart and soul into doing your best.
-If you've done that, no matter how your races go, you can be proud of yourself.</p>
-<br><br>
-
-</p>
-    </div>
-
-		<div class="col-lg-3">
-		<h3>Ziv Epstein</h3>
-
-<img src="themes/assets/images/ziv.jpg"width="100%" alt="Generic placeholder image">
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br><br>
-
-</p>
-    </div>
-
-    <div class="col-lg-3">
-    <h3>Mystery Salad</h3>
-
-    <img src="themes/assets/images/mystery-man-square1.jpg"width="100%" alt="Generic placeholder image">
-    <p>
-    Mystery Salad is still a mystery. Stay tuned for more.<br><br>
-
-    </div>
-
-		</div>
-		</div>
-	</div>
-
-  <div class="container marketing" id = "sponsors">
-   <h2 class="itemsTitle">Our Sponsors</h2>
-   <div class = "cntr">
-
-     <div class - "row">
-     <div class = "cntr">
-<A HREF="https://www.rollrecovery.com/"><img src="themes/assets/images/rolllogo.png" align="center" style="width:125px;height:50px;"></A>
-
-
-   <p>This could be you! Send us an email at <a href="mailto:therunningroadtrip@gmail.com" target="_top">therunningroadtrip@gmail.com</a></p>
-</div>
-
+ 
 
   </div>
 
