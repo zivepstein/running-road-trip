@@ -38,6 +38,7 @@
         <a href = "cause.html">Our Cause </a> |
           <a href = "team.html">Our Team </a> |
         <a href = "sponsors.html">Our Sponsors </a>
+
       </div>
     </div>
 
@@ -74,19 +75,16 @@
        // icon:'themes/assets/images/nepali-momo.png',
         animation:google.maps.Animation.BOUNCE
         });
-
       var flightPath = new google.maps.Polyline({
           path: [{lat: 40.0150,lng: -95.2705},{lat: 45.0150,lng:-95.2705},{lat:55.0150 ,lng:-90.2705}],
           geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0,
           strokeWeight: 2 });
       flightPath.setMap(map);
       marker.setMap(map);
-
       // Info open
       var infowindow = new google.maps.InfoWindow({
         content:"Hello World!"
         });
-
       google.maps.event.addListener(marker, 'click', function() {
         infowindow.open(map,marker);
         });
@@ -102,21 +100,19 @@
   <div class = "col-lg-3">
     <a class="twitter-timeline" href="https://twitter.com/RunningRoadtrip">Tweets by RunningRoadtrip</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
     </script>
-    <div>
-    </div>
 
-    <html>
-  <head>
-  <style>
-  ul#cities li {display:inline;}
-  </style>
-</head>
-<body>
+  </div>
 
-<ul id="cities">
-  <left> <h2>Cities</h2></left>
-<p> <center><b>Start</b> Boulder, Co &#183;
-Crested Butte, Co &#183;
+<header>
+  <div class="container marketing" id = "mission"> </header>
+ </div>
+ </div>
+  </div>
+
+<div class="container marketing" id = "content">
+    <h2 class="itemsTitle">Cities</h2>
+    <p> Boulder, CO &#183;
+Crested Butte, CO &#183;
 Sundance, UT &#183;
 Park City, UT &#183;
 Grand Tetons National Park, WY &#183;
@@ -125,11 +121,11 @@ Portland, OR &#183;
 Lewis and Clark National Historic Park, OR &#183;
 Bellingham, WA &#183;
 Orcas Island, WA &#183;
-Glacier National Park,	MT &#183;
+Glacier National Park,  MT &#183;
 Helena, MT &#183;
 Medora, ND &#183;
 Badlands National Park, SD &#183;
-Lincoln	, NE &#183;
+Lincoln , NE &#183;
 Omaha, NE &#183;
 Lawrence, KS &#183;
 Kansas City, MO &#183;
@@ -146,7 +142,7 @@ Pittsburgh, PA &#183;
 Burlington, VT &#183;
 North Conway, NH &#183;
 Lebanon, ME &#183;
-Boston	, MA &#183;
+Boston  , MA &#183;
 Providence, RI &#183;
 Stamford, CT &#183;
 New York City, NY &#183;
@@ -175,22 +171,12 @@ Las Vegas, NV &#183;
 Lake Tahoe, NV &#183;
 San Francisco, CA &#183;
 San Diego, CA &#183;
-Boulder CO<b>End</b>
-</ul>
-</body>
-</html>
- </center></p></div>
-<br></br>
-<div></div>
-
-<header>
-  <div class="container marketing" id = "mission"> </header>
- </div>
- </div>
-  </div>
+Boulder CO</p>
+    </div>
 
 
-    <h3 class="itemsTitle">Our Content</h3>
+   <div class="container marketing" id = "content">
+    <h2 class="itemsTitle">Our Content</h2>
   <div id="myCarousel1" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <div class="carousel-inner">
@@ -211,7 +197,7 @@ Boulder CO<b>End</b>
       </div><!-- /.row -->
 
         </div>
-
+        
         <div class="item">
           <div class="row">
         <div class="col-lg-4">
@@ -235,7 +221,7 @@ Boulder CO<b>End</b>
   </div>
 
   <div></div>
-
+ 
 
   </div>
 
