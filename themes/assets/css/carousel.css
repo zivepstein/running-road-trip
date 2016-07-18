@@ -275,3 +275,16 @@ footer{padding:18px 0; background:#111; color:#fff;}
     padding:15px 8px 15px 8px ;
     width: 8%;
 }
+
+#title{
+ color: "#663399"
+}
+
+a{
+ color: #663399;
+ hover: red;
+}
+
+a:hover{
+ color: red;
+}
