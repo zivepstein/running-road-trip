@@ -113,7 +113,7 @@ a:hover{color:#e7e7e7}
 .highlightSection{padding:28px 0}
 .highlightSection img{padding:0 0 28px 0}
 .highlightSection .media{background-color: #efefef;border: 1px solid #efefef;color: #939393;padding: 10px;text-align: center;}
-.introSection{background-color: #efefef; padding: 28px 0}
+.introSection{background-color: white; padding: 28px 0}
 .header{background-color: white; padding: 28px 0}
 .brandBtn{background-color: #7db641;}
 .btn-default{color: #fff;background-color: #7db641;border-color: #7db641;border-radius:0}
@@ -287,4 +287,20 @@ a{
 
 a:hover{
  color: red;
+}
+
+body{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #f3ecf9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #f3ecf9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #f3ecf9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #f3ecf9); /* Standard syntax */
+}
+
+.header{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #f3ecf9,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f3ecf9,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #f3ecf9,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f3ecf9,white); /* Standard syntax */
 }
